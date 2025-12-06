@@ -11,3 +11,7 @@ function ClearAll(){
 function DisplayResult(){
     result.value = eval(result.value);
 }
+
+function DeleteLastCharacter(){
+    result.value = result.value.slice(0, result.value.length - 1);
+}
